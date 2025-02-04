@@ -105,12 +105,12 @@ export const skills = [
       {
         name: "S3",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/1/1f/Amazon_S3_logo.svg",
+          "https://miro.medium.com/v2/resize:fit:868/1*lDGITZoQTdNAOkUskEgcMg.png",
       },
       {
         name: "EC2",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/AWS_Simple_Icons_Compute_Amazon_EC2.svg/1200px-AWS_Simple_Icons_Compute_Amazon_EC2.svg.png",
+          "https://static-00.iconduck.com/assets.00/aws-ec2-icon-1696x2048-nhw31ife.png",
       },
     ],
   },
@@ -119,8 +119,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+        image: "https://img.icons8.com/color/512/git.png",
       },
       {
         name: "GitHub",
@@ -135,7 +134,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8",
       },
       {
         name: "Netlify",
@@ -150,7 +149,7 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62LVhts8-ERiNmlrfHQShVXasUYH38KKSRw&s",
       },
     ],
   },
