@@ -3,7 +3,7 @@ export const Bio = {
   roles: ["Full Stack Developer", "UI/UX Designer", "Programmer", "Learner"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
+  github: "https://github.com/mishrabhi",
   resume:
     "https://drive.google.com/file/d/1cUnkMv5fjCmBWq62AwB-KM5elnDmcCyx/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/abhishek-mishra-9946a713b",
@@ -249,3 +249,5 @@ export const projects = [
     webapp: "https://rishav-react-todo.netlify.app/",
   },
 ];
+
+export default { Bio, skills, experiences, education, projects };
