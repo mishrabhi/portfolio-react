@@ -158,23 +158,22 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
+    img: "https://sifms.in/images/sifms-logos/sifms-profile-logo1.jpg",
+    role: "Frontend Engineer(Freelance)",
+    company: "SIFMS",
+    date: "Feb 2024 - July 2024",
+    desc: "Worked with a fellow engineer to develop the frontend of the company's website. Created a intiutive and responsive UI.",
+    skills: ["HTML", "CSS", "Javascript", "ReactJS", "Bootstrap", "BitBucket"],
+  },
+
+  {
+    id: 1,
+    img: "https://www.phntechnology.com/static/media/Phn-Blue-Logo.ba620b218fee4e880bd52fbe01635f64.svg",
+    role: "Web Developer(Remote)",
+    company: "PHN Technology Pvt Ltd",
+    date: "April 2023 - June 2023",
+    desc: "Gathered requirements and developed responsive UIs using HTML, CSS, and JavaScript. Wrote clean, efficient code and ensured testing standards were met.",
+    skills: ["HTML", "CSS", "Javascript", "Tailwind CSS", "Git", "Github"],
   },
 ];
 
@@ -249,4 +248,12 @@ export const projects = [
   },
 ];
 
-export default { Bio, skills, experiences, education, projects };
+export const TimeLineData = [
+  { year: 2019, text: "Started my journey" },
+  { year: 2020, text: "Learned basics of Web Development" },
+  { year: 2021, text: "Joined College to persue MCA" },
+  { year: 2022, text: "Javascript Mastery" },
+  { year: 2021, text: "Started working and building Projects" },
+];
+
+export default { Bio, skills, experiences, education, projects, TimeLineData };

@@ -1,11 +1,14 @@
 import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import Hero from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
-import { BrowserRouter as Router } from "react-router-dom";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import { useState } from "react";
 
 // Styled components for body and wrapper
 const Body = styled.div`
@@ -30,6 +33,8 @@ const Wrapper = styled.div`
 `;
 
 function App() {
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
+  console.log(openModal);
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
@@ -38,7 +43,12 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
-            <Education />
+            <Experience />
+          </Wrapper>
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
+            {/* <Education /> */}
+            {/* <Contact /> */}
           </Wrapper>
         </Body>
       </Router>
