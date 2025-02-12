@@ -205,14 +205,14 @@ const Navbar = () => {
           />
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
         </NavItems>
         <ButtonContainer>
-          <GithubButton>Github Profile</GithubButton>
+          <GithubButton href="{Bio.github}">Github Profile</GithubButton>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
