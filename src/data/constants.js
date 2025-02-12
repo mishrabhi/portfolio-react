@@ -202,7 +202,7 @@ export const education = [
     school: "M.V.Convent Inter College",
     date: "Apr 2014 - March 2015",
     grade: "65%",
-    desc: "I completed my class 12 education at MV Convent Inter College(CBSE), Prayagraj,UP",
+    desc: "I completed my class 12 education at MV Convent Inter College(CBSE) from Prayagraj, Uttar Pradesh.",
     degree: "XII",
   },
 ];
