@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { useTheme } from "styled-components";
-import Bio from "../../data/constants";
+import { Bio } from "../../data/constants";
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.card_light};
@@ -52,6 +52,16 @@ const NavItems = styled.ul`
   gap: 32px;
   padding: 0 6px;
   list-style: none;
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.text_primary};
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: ${({ theme }) => theme.primary};
+    }
+  }
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -181,6 +191,7 @@ const MobileLink = styled.a`
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme();
+  console.log("GitHub URL:", Bio.github); // Should print correct URL
   return (
     <Nav>
       <NavContainer>
@@ -212,7 +223,9 @@ const Navbar = () => {
           <a href="#education">Education</a>
         </NavItems>
         <ButtonContainer>
-          <GithubButton href="{Bio.github}">Github Profile</GithubButton>
+          <GithubButton href={Bio.github} target="_blank">
+            Github Profile
+          </GithubButton>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
