@@ -11,6 +11,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ProjectDetails from "./components/ProjectDetails";
 
 // Styled components for body and wrapper
 const Body = styled.div`
@@ -53,6 +54,9 @@ function App() {
             <Contact />
           </Wrapper>
           <Footer />
+          {openModal.state && (
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
         </Body>
       </Router>
     </ThemeProvider>
