@@ -4,7 +4,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ## Live Demo
 
-🔗 [Click here to view the deployed app](portfolio-pk8bug7sa-mishrabhis-projects.vercel.app)
+🔗 [Click here to view the deployed app](https://portfolio-app-psi-vert.vercel.app/)
 
 ## Table of Contents
 
