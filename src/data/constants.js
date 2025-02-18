@@ -7,9 +7,9 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1cUnkMv5fjCmBWq62AwB-KM5elnDmcCyx/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/abhishek-mishra-9946a713b",
-  twitter: "",
-  insta: "",
-  facebook: "",
+  twitter: " https://x.com/_mishrabhishek?t=prdT3pNZ9riRZomAOh6DuA&s=08",
+  insta: "https://www.instagram.com/__mishrabhishek__?igsh=cnhxNjVleGxmYWZs",
+  facebook: "https://m.facebook.com/profile.php?id=100003486384615",
 };
 
 export const skills = [
