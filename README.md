@@ -2,7 +2,9 @@
 
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-**Weblink:**
+## Live Demo
+
+🔗 [Click here to view the deployed app](portfolio-2i2bj0i0d-mishrabhis-projects.vercel.app)
 
 ## Table of Contents
 
@@ -68,3 +70,9 @@ npm start
 After installing and running the project locally, you can navigate through the different sections of the portfolio using the navigation menu. Explore the About Me section to learn more about my background and skills. Visit the Projects section to see detailed information about my projects, including descriptions and screenshots. Use the Contact section to send me a message or inquiry.
 
 ## Screenshots:
+
+![Image](https://github.com/user-attachments/assets/a5c79937-4403-4a0f-a47a-2361710c25e5)
+
+![Image](https://github.com/user-attachments/assets/84e02262-b0d9-4c0f-baf7-54e99d404d25)
+
+![Image](https://github.com/user-attachments/assets/024cd485-7fa6-419e-a8d9-365fd55378b5)
